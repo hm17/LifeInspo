@@ -9,10 +9,19 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/quoteView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Life is what you make of it!"
+        android:text="@string/default_text"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">"
+        android:layout_gravity="right"
+        android:onClick="next"/>
 
 </LinearLayout>

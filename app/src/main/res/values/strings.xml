@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LifeInspo</string>
+    <string name="default_text">Life is what you make of it!</string>
 </resources>
