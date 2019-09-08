@@ -8,6 +8,10 @@
     android:background="@color/defaultColor"
     tools:context=".MainActivity">
 
+    <include
+        layout="@layout/toolbar_main"
+        android:id="@+id/toolbar"/>
+
     <TextView
         android:id="@+id/quoteView"
         android:layout_width="wrap_content"
