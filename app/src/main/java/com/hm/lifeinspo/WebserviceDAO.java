@@ -31,6 +31,7 @@ public class WebserviceDAO {
      */
     public void get(final VolleyCallback callback) {
         String url = SERVER_URL + "?action=get_app_list";
+        // http://dailyaphorisms.hazella.co/api.php?action=get_app_list
 
         // Request a string response from the provided URL.
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,

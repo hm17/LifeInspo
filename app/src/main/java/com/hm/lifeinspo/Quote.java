@@ -8,6 +8,15 @@ public class Quote {
     private String text;
     private String author;
 
+    public Quote() {
+
+    }
+
+    public Quote(String text, String author) {
+        this.text = text;
+        this.author = author;
+    }
+
     public Quote(int id, String text, String author){
         this.id = id;
         this.text = text;
